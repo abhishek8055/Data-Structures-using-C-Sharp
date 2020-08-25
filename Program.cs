@@ -1,4 +1,5 @@
 ﻿using System;
+using DATASTRUCTURES.LeetCode;
 
 namespace DATASTRUCTURES
 {
@@ -6,7 +7,8 @@ namespace DATASTRUCTURES
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //StreamChecker.MainMethod();
+            SumOfLeftLeaves.MainMethod();
         }
     }
 }
