@@ -4,7 +4,7 @@ using System.Text;
 using DATASTRUCTURES.Common;
 using DATASTRUCTURES.Tries;
 
-namespace DATASTRUCTURES.LeetCode
+namespace DATASTRUCTURES.LeetCode_August2020
 {
     public class StreamChecker
     {

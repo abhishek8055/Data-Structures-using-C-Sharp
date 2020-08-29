@@ -1,5 +1,6 @@
 ﻿using System;
-using DATASTRUCTURES.LeetCode;
+using DATASTRUCTURES.LeetCode_August2020;
+using DATASTRUCTURES.LeetCode_TopInterviewQuestions.Arrays;
 
 namespace DATASTRUCTURES
 {
@@ -8,7 +9,9 @@ namespace DATASTRUCTURES
         static void Main(string[] args)
         {
             //StreamChecker.MainMethod();
-            SumOfLeftLeaves.MainMethod();
+            //SumOfLeftLeaves.MainMethod();
+            //MinimumCostForTickets.MainMethod();
+            //RemoveDuplicatesFromSortedArray.MainMethod();
         }
     }
 }

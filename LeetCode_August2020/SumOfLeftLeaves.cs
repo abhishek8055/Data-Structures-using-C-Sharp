@@ -1,6 +1,6 @@
 using DATASTRUCTURES.Trees;
 
-namespace DATASTRUCTURES.LeetCode
+namespace DATASTRUCTURES.LeetCode_August2020
 {
     public class SumOfLeftLeaves
     {
