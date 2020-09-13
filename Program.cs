@@ -12,6 +12,7 @@ namespace DATASTRUCTURES
             //SumOfLeftLeaves.MainMethod();
             //MinimumCostForTickets.MainMethod();
             //RemoveDuplicatesFromSortedArray.MainMethod();
+            RotateArray.MainMethod();
         }
     }
 }
