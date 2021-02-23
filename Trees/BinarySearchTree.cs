@@ -1,6 +1,6 @@
-using System;
-namespace DATASTRUCTURES.Common
+namespace DATASTRUCTURES.Trees
 {
+    using System;
     public class BinarySearchTree
     {
         public TreeNode root = null;

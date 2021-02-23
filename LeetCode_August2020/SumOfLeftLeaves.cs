@@ -1,13 +1,13 @@
-using DATASTRUCTURES.Trees;
-
 namespace DATASTRUCTURES.LeetCode_August2020
 {
+    using DATASTRUCTURES.Tries;
+    using DATASTRUCTURES.Trees;
     public class SumOfLeftLeaves
     {
-        private static TreeOperations binaryTree = null;
+        private static TreeExtension binaryTree = null;
         public SumOfLeftLeaves(int[] nodes)
         {
-            binaryTree = new TreeOperations();
+            binaryTree = new TreeExtension();
             binaryTree.BuildBinarySearchTree(nodes);
         }
 

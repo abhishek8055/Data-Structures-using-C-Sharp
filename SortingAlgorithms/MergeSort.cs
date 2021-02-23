@@ -1,7 +1,6 @@
-using System;
-
 namespace DATASTRUCTURES.SortingAlgorithms
 {
+    using System;
     public class MergeSort
     {
         // DIVIDE AND CONQUER SORTING ALGORITHM (MERGE & QUICK)

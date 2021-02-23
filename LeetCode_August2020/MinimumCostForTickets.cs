@@ -1,7 +1,6 @@
-using System;
-
 namespace DATASTRUCTURES.LeetCode_August2020
 {
+    using System;
     public class MinimumCostForTickets
     {
         public int MincostTickets(int[] days, int[] costs)

@@ -1,7 +1,6 @@
-using System.Collections.Generic;
-
-namespace DATASTRUCTURES.Common
+namespace DATASTRUCTURES.Tries
 {
+    using System.Collections.Generic;
     public class TrieNode
     {
         public Dictionary<char, TrieNode> Children {get; }

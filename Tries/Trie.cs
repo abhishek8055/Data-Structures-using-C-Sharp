@@ -1,23 +1,22 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace DATASTRUCTURES.Common
+namespace DATASTRUCTURES.Tries
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
     public class Trie
     {
         private readonly TrieNode _rootNode;
-        public Trie()
-        {
-            _rootNode = new TrieNode(default(char));
-        }
-
         public TrieNode rootNode
         {
             get
             {
                 return this._rootNode;
             }
+        }
+
+        public Trie()
+        {
+            _rootNode = new TrieNode(default(char));
         }
 
         /// <summary>Add new string to Trie.</summary>
@@ -32,7 +31,7 @@ namespace DATASTRUCTURES.Common
             {
                 throw new ArgumentException("Cannot add an empty string to Trie.");
             }
-            var currentNode = _rootNode;
+            var currentNode = rootNode;
             foreach (char currentChar in word)
             {
                 TrieNode nextNode = null;

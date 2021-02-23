@@ -1,21 +1,20 @@
-using System.Collections.Generic;
-using System.Linq;
-using DATASTRUCTURES.Common;
-
 namespace DATASTRUCTURES.Trees
 {
-    public class TreeOperations : BinarySearchTree
+
+    using System.Collections.Generic;
+    using System.Linq;
+    public class TreeExtension : BinarySearchTree 
     {
-        public TreeOperations()
+        public TreeExtension()
         {
 
         }
-        public TreeOperations(int value) : base(value)
+        public TreeExtension(int value) : base(value) 
         {
 
         }
 
-        public int SumOfLeftLeaves(TreeNode root)
+        public int SumOfLeftLeaves(TreeNode root) 
         {
             int sum = 0;
             if (root == null) return 0;
@@ -31,7 +30,7 @@ namespace DATASTRUCTURES.Trees
             return sum;
         }
 
-        public int SumOfLeftLeavesStack(TreeNode root)
+        public int SumOfLeftLeavesStack(TreeNode root) 
         {
             int sum = 0;
             Stack<TreeNode> stack = new Stack<TreeNode>();
@@ -52,7 +51,7 @@ namespace DATASTRUCTURES.Trees
             return sum;
         }
 
-        public void BuildBinarySearchTree(int[] nodes)
+        public void BuildBinarySearchTree(int[] nodes) 
         {
             foreach (int val in nodes)
                 InsertNode(val);

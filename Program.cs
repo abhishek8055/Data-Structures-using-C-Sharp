@@ -1,9 +1,11 @@
-﻿using System;
-using DATASTRUCTURES.LeetCode_August2020;
-using DATASTRUCTURES.LeetCode_TopInterviewQuestions.Arrays;
-
-namespace DATASTRUCTURES
+﻿namespace DATASTRUCTURES
 {
+    using System;
+    using DATASTRUCTURES.LeetCode_August2020;
+    using DATASTRUCTURES.LeetCode_TopInterviewQuestions.Arrays;
+    using DATASTRUCTURES.LeetCode_TopInterviewQuestions.Strings;
+    using DATASTRUCTURES.SortingAlgorithms;
+    using DATASTRUCTURES.ZTM;
     class Program
     {
         static void Main(string[] args)
@@ -13,7 +15,11 @@ namespace DATASTRUCTURES
             //MinimumCostForTickets.MainMethod();
             //RemoveDuplicatesFromSortedArray.MainMethod();
             //RotateArray.MainMethod();
-            ContainsDuplicate.MainMethod();
+            //ContainsDuplicate.MainMethod();
+            //BubbleSort.MainMethod();
+            //ReverseString.Reverse("Abhishek");
+            //ReverseString.ReverseNumberRecursive();
+            ContainsCommonItemInArrays.MainMethod();
         }
     }
 }

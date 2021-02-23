@@ -1,13 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using DATASTRUCTURES.Common;
-
 namespace DATASTRUCTURES.Tries
 {
-    public class TrieOperations : Trie
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    public class TrieExtension : Trie
     {
-        public void BuildReverseTrie(string[] words)
+        public void BuildReverseTrie(string[] words) 
         {
             string reverseWord = null;
             foreach (string word in words)

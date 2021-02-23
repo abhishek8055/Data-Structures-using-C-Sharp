@@ -1,18 +1,16 @@
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using DATASTRUCTURES.Common;
-using DATASTRUCTURES.Tries;
-
 namespace DATASTRUCTURES.LeetCode_August2020
 {
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using DATASTRUCTURES.Tries;
     public class StreamChecker
     {
-        private static TrieOperations _trie = null;
+        private static TrieExtension _trie = null;
         private static Stack<char> History;
         public StreamChecker(string[] words)
         {
-            _trie = new TrieOperations();
+            _trie = new TrieExtension();
             _trie.BuildReverseTrie(words);
             History = new Stack<char>();
         }

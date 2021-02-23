@@ -1,7 +1,6 @@
-using System;
-
 namespace DATASTRUCTURES.SortingAlgorithms
 {
+    using System;
     // DIVIDE AND CONQUER SORTING ALGORITHM (MERGE & QUICK)
     // TIME COMPLEXITY
     //      BEST & AVERAGE CASE - O(NLOGN)
@@ -16,7 +15,7 @@ namespace DATASTRUCTURES.SortingAlgorithms
     //      O(1) - SINCE QUICKSORT USES IN-PLACE SHIFTING OF ELEMENTS.
     public class QuickSort
     {
-        public static void Swap(int[] arr, int i, int j){
+        private static void Swap(int[] arr, int i, int j){
             int temp = arr[i];
             arr[i] = arr[j];
             arr[j] = temp;
