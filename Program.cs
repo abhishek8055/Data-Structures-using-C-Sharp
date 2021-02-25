@@ -5,7 +5,6 @@
     using DATASTRUCTURES.LeetCode_TopInterviewQuestions.Arrays;
     using DATASTRUCTURES.LeetCode_TopInterviewQuestions.Strings;
     using DATASTRUCTURES.SortingAlgorithms;
-    using DATASTRUCTURES.ZTM;
     class Program
     {
         static void Main(string[] args)
@@ -20,6 +19,7 @@
             //ReverseString.Reverse("Abhishek");
             //ReverseString.ReverseNumberRecursive();
             ContainsCommonItemInArrays.MainMethod();
+            //FindPairWithSumInArray.MainMethod();
         }
     }
 }
