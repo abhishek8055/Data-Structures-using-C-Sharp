@@ -18,8 +18,11 @@
             //BubbleSort.MainMethod();
             //ReverseString.Reverse("Abhishek");
             //ReverseString.ReverseNumberRecursive();
-            ContainsCommonItemInArrays.MainMethod();
+            //ContainsCommonItemInArrays.MainMethod();
             //FindPairWithSumInArray.MainMethod();
+            //TwoSum.MainMethod();
+            //MaxSubArray.MainMethod();
+            MoveZeros.MainMethod();
         }
     }
 }
