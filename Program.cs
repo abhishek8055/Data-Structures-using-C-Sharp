@@ -1,9 +1,11 @@
 ﻿namespace DATASTRUCTURES
 {
     using System;
+    using DATASTRUCTURES.HashTable;
     using DATASTRUCTURES.LeetCode_August2020;
     using DATASTRUCTURES.LeetCode_TopInterviewQuestions.Arrays;
     using DATASTRUCTURES.LeetCode_TopInterviewQuestions.Strings;
+    using DATASTRUCTURES.LinkedList;
     using DATASTRUCTURES.SortingAlgorithms;
     class Program
     {
@@ -22,7 +24,9 @@
             //FindPairWithSumInArray.MainMethod();
             //TwoSum.MainMethod();
             //MaxSubArray.MainMethod();
-            MoveZeros.MainMethod();
+            //MoveZeros.MainMethod();
+            //Hash_Table.MainMethod();
+            LinkedListImplementation.MainMethod();
         }
     }
 }
